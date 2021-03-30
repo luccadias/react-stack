@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import { Paragraph } from './styled'
 
-const Text = ({text}) => <Paragraph>{text}</Paragraph>
+const Text = ({children}) => <Paragraph>{children}</Paragraph>
 
 Text.prototype = {
     text: PropTypes.string

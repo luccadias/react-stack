@@ -12,7 +12,7 @@ import GlobalStyle from "./styles/global";
 
 // components to use in your routes
 import Home from "./containers/Home";
-import Forecast from "./containers/Forecast";
+import Forecast from "./containers/Forecast/Forecast";
 
 // json with routes path
 import paths from "./routes/paths.json";
